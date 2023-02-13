@@ -1,0 +1,43 @@
+{
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+  // Форматирование кода с помощью prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // Форматирование при сохранении файла
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  // Форматирование при изменении файла
+  "editor.formatOnPaste": false,
+
+  // Использование локальных правил для StyleLint
+  "stylelint.useLocal": true,
+  "stylelint.autoFixOnSave": true,
+
+  // Проверка орфографии с помощью Code Spell Checker
+  "cSpell.language": "en,ru",
+
+  // Дополнительный словарь для Code Spell Checker
+  "cSpell.words": ["antd", "reduxjs"],
+
+  "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+
+  "javascript.inlayHints.enumMemberValues.enabled": true,
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "javascript.inlayHints.parameterNames.enabled": "all",
+  "javascript.inlayHints.parameterTypes.enabled": true,
+  "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "javascript.inlayHints.variableTypes.enabled": true,
+  "typescript.inlayHints.enumMemberValues.enabled": true,
+  "typescript.inlayHints.parameterTypes.enabled": true,
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+
+  "editor.suggest.preview": true,
+
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "package.json": "package-lock.json, .stylelintrc, .eslintrc, .prettierrc"
+  }
+}
